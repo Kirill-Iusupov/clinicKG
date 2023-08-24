@@ -5,7 +5,7 @@ const MainPage = () => {
 
     return (
         <div className='container'>
-            <h1>This is main page</h1>
+            <h1>Teeeeehis is main page</h1>
         </div>
     );
 }

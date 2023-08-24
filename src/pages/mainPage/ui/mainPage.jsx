@@ -5,9 +5,9 @@ const MainPage = () => {
 
     return (
         <div className='container'>
-            <h1>Teeeeehis is main page</h1>
+            <h1>Teeeeehis iffs main page</h1>
         </div>
     );
 }
 
-export default MainPage;
+export default MainPage; 

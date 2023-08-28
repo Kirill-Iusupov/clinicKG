@@ -1,12 +1,17 @@
-import { Button } from "antd"
-import MainPage from "../pages/mainPage"
+import MainPage from "../pages/mainPage/ui/mainPage"
+import Footer from "../widgets/footer/"
+import Header from "../widgets/header/"
+import {Routes, Route} from "react-router-dom"
 
 function App() {
 
   return (
     <>
-      <MainPage />
-      <Button />
+      <Header />
+      <Routes>
+        <Route index path="/" element={<MainPage />}/>
+      </Routes>
+      <Footer />
     </>
   )
 }

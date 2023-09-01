@@ -1,8 +1,10 @@
 import React from "react";
 import style from "../style/Navbar.module.scss"
+import Button from "../../../shared/button";
 
 const Navbar = () => {
     return(
+        <>
         <div className={style.container}>
            <a href="">Home</a>
            <a href="">About</a>
@@ -10,6 +12,8 @@ const Navbar = () => {
            <a href="">Our doctors</a>
            <a href="">Contact us</a>
         </div>
+        <Button />
+        </>
     )
 }
 

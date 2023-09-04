@@ -5,7 +5,7 @@ const Logo = () => {
   return (
     <div className={style.container}>
       <span className={style.logo}></span>
-      <p>HEALTHCARE</p>
+      <p>HEALTH<span>CARE</span></p>
     </div>
   );
 };

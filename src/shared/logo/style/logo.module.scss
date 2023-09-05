@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    margin-left: 20vh;
+    margin-top: 20px;
+    .logo{
+        display: inline-block;
+        background-image: url('../image/Stethoscope.png');
+        width: 30px;
+        height: 30px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+      
+    }
+
+    p{
+        width: 100px;
+        height: 25px;
+        font-size: 15px;
+        display: inline-block;
+        background: linear-gradient(135deg, #1f66c4, #053589);
+        -webkit-background-clip: text; /* Применение маски к тексту для Webkit браузеров */
+        background-clip: text; /* Применение маски к тексту */
+        color: transparent; /* Делаем исходный текст прозрачным */  
+        font-family: Poppins;
+        line-height: 27px;
+        font-weight: 500;
+    }
+
+    span {
+        color: rgba(48, 113, 114, 1);
+    }
+}

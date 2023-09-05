@@ -17,7 +17,7 @@
         height: 25px;
         font-size: 15px;
         display: inline-block;
-        background: linear-gradient(135deg, #1f66c4, #053589);
+        background: linear-gradient(135deg, #000000, #000000);
         -webkit-background-clip: text; /* Применение маски к тексту для Webkit браузеров */
         background-clip: text; /* Применение маски к тексту */
         color: transparent; /* Делаем исходный текст прозрачным */  
@@ -27,6 +27,6 @@
     }
 
     span {
-        color: rgba(48, 113, 114, 1);
+        color: rgb(149, 0, 255);
     }
 }

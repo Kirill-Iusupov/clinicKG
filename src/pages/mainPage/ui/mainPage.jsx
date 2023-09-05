@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../../../widgets/navbar";
 import NavBar from "../../../features";
+import BodyImage from "../../../widgets/body";
 
 const MainPage = () => {
   return (
@@ -10,6 +11,7 @@ const MainPage = () => {
         <Navbar />
         <NavBar />
       </div>
+      <BodyImage />
     </div>
   );
 };

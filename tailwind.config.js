@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
     colors: {
-      "main": "#1fb6ff",
+      "main": "rgb(149, 0, 255)",
       "secondary": "#",
       "danger": "",
       

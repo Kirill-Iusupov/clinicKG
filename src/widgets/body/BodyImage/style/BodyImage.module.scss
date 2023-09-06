@@ -1,6 +1,18 @@
 .container {
     margin-top: 10px;
-    .img {
+    background-image: url('../image//pexels-photo-1170979.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    width: 50%;
+    .grad {
+        width: 100vw;
+        height: 100%;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0)0 40%, rgb(149, 0, 255)53% 100%);
+    } 
+
+    img {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -11,11 +23,8 @@
 
     div {
         // margin: 500px 200px 100px 0px;
-        width: 100%;
-        height: 70vh;
         right: 0;
         z-index: 999;
-        background: linear-gradient(90deg, rgba(255, 255, 255, 0)0 40%, rgb(149, 0, 255)53% 100%);
 
         h1 {
             margin: 130px 20px 50px 820px;

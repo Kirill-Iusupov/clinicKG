@@ -31,8 +31,8 @@ const Footer = () => {
 
     return (
         <div className={`${styles.footer} `}>
-            <div className="container">
-                <div className='flex text-white justify-around'> 
+            <div className="container ">
+                <div className='flex text-white justify-between'> 
                     <div className='flex-col w-[350px] items-start'>
                         <Logo className={''} />
                         <p>One of the world’s leading hospitals providing safe and compasionate care as its best for everyone</p>

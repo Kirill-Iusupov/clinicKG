@@ -6,7 +6,7 @@ const MainPage = () => {
   return (
     <div className="container">
       {/* <h1>This is main page</h1> */}
-      <div>
+      <div className="flex">
         <Navbar />
         <NavBar />
       </div>

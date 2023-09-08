@@ -1,3 +1,3 @@
-import Navbar from "./ui";
+import Logo from "./ui";
 
-export default Navbar;
+export default Logo;

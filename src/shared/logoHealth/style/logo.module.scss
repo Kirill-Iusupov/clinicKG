@@ -1,7 +1,8 @@
 .container{
     display: flex;
-    padding-left: 20vh;
+    padding-left: 10vh;
     margin-top: 20px;
+    justify-items: center;
     .logo{
         display: inline-block;
         background-image: url('../image/Stethoscope.png');
@@ -13,16 +14,10 @@
     }
 
     p{
-        width: 100px;
-        height: 25px;
         font-size: 15px;
-        display: inline-block;
         background: linear-gradient(135deg, #000000, #000000);
         -webkit-background-clip: text; /* Применение маски к тексту для Webkit браузеров */
-        background-clip: text; /* Применение маски к тексту */
-        color: transparent; /* Делаем исходный текст прозрачным */  
         font-family: Poppins;
-        line-height: 27px;
         font-weight: 500;
     }
 

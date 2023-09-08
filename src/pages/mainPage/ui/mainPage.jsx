@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../../../widgets/navbar";
-import NavBar from "../../../features";
+import Logo from "../../../features/index";
 import BodyImage from "../../../widgets/body";
 import BodyNavbar from "../../../widgets/BodyNavbar";
 
@@ -9,7 +9,7 @@ const MainPage = () => {
     <div>
       <div className="flex justify-between">
         <Navbar />
-        <NavBar />
+        <Logo />
       </div>
       <BodyImage />
       <BodyNavbar />

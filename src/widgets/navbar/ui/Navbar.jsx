@@ -1,11 +1,11 @@
 import React from "react";
-import Logo from "../../../shared/logo/ui/Logo";
+import LogoHealth from "../../../shared/logoHealth/index";
 import styles from "../styles/navbar.module.scss"
 
 const Navbar = () => {
     return (
         <div className={`${styles.navbar }`}>
-            <Logo />
+            <LogoHealth />
         </div>
     )
 }

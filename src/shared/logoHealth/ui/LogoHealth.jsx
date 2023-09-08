@@ -1,7 +1,7 @@
 import React from "react";
 import style from "../style/logo.module.scss";
 
-const Logo = () => {
+const LogoHealth = () => {
   return (
     <div className={style.container}>
       <span className={style.logo}></span>
@@ -10,4 +10,4 @@ const Logo = () => {
   );
 };
 
-export default Logo;
+export default LogoHealth;

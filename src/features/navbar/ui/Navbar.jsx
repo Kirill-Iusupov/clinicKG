@@ -2,7 +2,7 @@ import React from "react";
 import style from "../style/Navbar.module.scss"
 import Button from "../../../shared/button";
 
-const Navbar = () => {
+const Logo = () => {
     return(
         <>
         <div className={style.container}>
@@ -17,4 +17,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar;
+export default Logo;

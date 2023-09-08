@@ -10,6 +10,7 @@ function App() {
       <Header />
       <Routes>
         <Route index path="/" element={<MainPage />}/>
+        
       </Routes>
       <Footer />
     </>

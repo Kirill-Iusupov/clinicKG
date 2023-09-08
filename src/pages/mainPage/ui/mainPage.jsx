@@ -1,15 +1,12 @@
 import React from "react";
 import Navbar from "../../../widgets/navbar";
 import NavBar from "../../../features";
+import Footer from "../../../widgets/footer";
 
 const MainPage = () => {
   return (
-    <div className="container">
-      {/* <h1>This is main page</h1> */}
-      <div>
-        <Navbar />
+    <div className="">
         <NavBar />
-      </div>
     </div>
   );
 };

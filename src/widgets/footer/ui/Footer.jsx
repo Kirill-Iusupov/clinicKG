@@ -31,7 +31,7 @@ const Footer = () => {
 
 
     return (
-        <div className={`${styles.footer} `}>
+        <div className={`${styles.footer} py-[20px]`}>
             <Wrapper>
                 <div className='flex text-white justify-between'> 
                     <div className='flex-col w-[350px] items-start'>

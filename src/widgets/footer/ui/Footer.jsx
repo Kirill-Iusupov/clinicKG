@@ -5,6 +5,7 @@ import Logo from '../../../shared/logo/ui/Logo'
 
 import {Links, SomeInfo, Days, Mails} from "../../../shared"
 import FooterCard from '../../../entities/footerCard/ui/footerCard';
+import Wrapper from '../../../shared/wrapper/ui/Wrapper';
 
 
 
@@ -31,7 +32,7 @@ const Footer = () => {
 
     return (
         <div className={`${styles.footer} `}>
-            <div className="container ">
+            <Wrapper>
                 <div className='flex text-white justify-between'> 
                     <div className='flex-col w-[350px] items-start'>
                         <Logo className={''} />
@@ -40,7 +41,7 @@ const Footer = () => {
                         <Links />
                     </div>
                     <div className='news'>
-                        <p className=''>Latest News</p>
+                        <p>Latest News</p>
                         {!cards ? <h1>No news</h1> :
                         cards.map((card, index)=>(
                             <FooterCard key={index} info={card}/>
@@ -55,7 +56,7 @@ const Footer = () => {
                     <Mails />
                 </div>
                 <p className='text-center text-[white]'>Copyright@2022 Healthcare Hospital</p>
-            </div>
+            </Wrapper>
         </div>
     );
 }
